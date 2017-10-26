@@ -1,0 +1,366 @@
+body
+{
+	margin: 0;
+	padding: 0;
+	color: #555;
+	font: normal 11pt Verdana,Helvetica,sans-serif;
+	background: #EFEFEF;
+}
+
+#page
+{
+	margin-top: 0px;
+	margin-bottom: 0px;
+	background: white;
+}
+
+#header
+{
+	margin: 0;
+	padding: 0;
+	height:120px;
+	color:#222222;
+	vertical-align:middle;
+}
+
+#content
+{
+    padding: 20px;
+}
+
+#sidebar
+{
+	padding: 20px 20px 20px 0;
+}
+
+#footer
+{
+	padding: 10px;
+	margin: 10px 20px;
+	font-size: 0.7em;
+	text-align: center;
+	border-top: 1px solid #C9E0ED;
+}
+
+#logo
+{
+	padding: 10px 20px;
+	font-size: 200%;
+}
+
+#mainmenu
+{
+	background:#ff0000;
+	height:28px;
+}
+
+#mainmenu ul
+{
+	padding:4px 20px 5px 20px;
+	margin:0px;
+}
+
+#mainmenu ul li
+{
+	display: inline;
+}
+
+#mainmenu ul li a
+{
+	color:#ffffff;
+	background-color:transparent;
+	font-size:12px;
+	font-weight:bold;
+	text-decoration:none;
+	padding:5px 8px;
+}
+
+#mainmenu ul li a:hover, #mainmenu ul li.active a
+{
+	color: #222222;
+	background-color:#ffffff;
+	text-decoration:none;
+}
+
+div.flash-error, div.flash-notice, div.flash-success
+{
+	padding:.8em;
+	margin-bottom:1em;
+	border:2px solid #ddd;
+}
+
+div.flash-error
+{
+	background:#FBE3E4;
+	color:#8a1f11;
+	border-color:#FBC2C4;
+}
+
+div.flash-notice
+{
+	background:#FFF6BF;
+	color:#514721;
+	border-color:#FFD324;
+}
+
+div.flash-success
+{
+	background:#E6EFC2;
+	color:#264409;
+	border-color:#C6D880;
+}
+
+div.flash-error a
+{
+	color:#8a1f11;
+}
+
+div.flash-notice a
+{
+	color:#514721;
+}
+
+div.flash-success a
+{
+	color:#264409;
+}
+
+div.form .rememberMe label
+{
+	display: inline;
+}
+
+div.view
+{
+	padding: 10px;
+	margin: 10px 0;
+	border: 1px solid #C9E0ED;
+}
+
+div.breadcrumbs
+{
+	font-size: 0.9em;
+	padding: 5px 20px;
+}
+
+div.breadcrumbs span
+{
+	font-weight: bold;
+}
+
+div.search-form
+{
+	padding: 10px;
+	margin: 10px 0;
+	background: #eee;
+}
+
+.portlet
+{
+
+}
+
+.portlet-decoration
+{
+	padding: 3px 8px;
+	background: #eef3d6;
+	border-left: 5px solid #ff0000;
+}
+
+.portlet-title
+{
+	font-size: 12px;
+	font-weight: bold;
+	padding: 0;
+	margin: 0;
+	color: #333333;
+}
+
+.portlet-content
+{
+	font-size:0.9em;
+	margin: 0 0 15px 0;
+	padding: 5px 8px;
+	background:#ffffff;
+}
+
+.portlet-content ul
+{
+	list-style-image:none;
+	list-style-position:outside;
+	list-style-type:none;
+	margin: 0;
+	padding: 0;
+}
+
+.portlet-content li
+{
+	padding: 2px 0 4px 0px;
+}
+
+.operations
+{
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+}
+
+.operations li
+{
+	padding-bottom: 2px;
+}
+
+.operations li a
+{
+	font: bold 12px Arial;
+	color: #0066A4;
+	display: block;
+	padding: 2px 0 2px 8px;
+	line-height: 15px;
+	text-decoration: none;
+}
+
+.operations li a:visited
+{
+	color: #0066A4;
+}
+
+.operations li a:hover
+{
+	background: #80CFFF;
+}
+#maps{
+    padding: 0px 0px;
+    width:400px;
+    margin:0 auto;
+    
+}
+.img-desc {
+
+position: relative;
+
+display: block;
+
+_height:335px;
+
+_width: 300px;
+float:left;
+padding: 0px 20px;
+
+}
+
+.img-desc cite {
+
+background: #111;
+
+filter:alpha(opacity=55);
+
+opacity:.55;
+
+color: #fff;
+
+position: absolute;
+
+bottom: 0;
+
+left: 20px;
+
+width: 130px;
+
+padding: 10px;
+
+border-top: 1px solid #999;
+
+}
+
+#comments{
+    clear: both;
+    padding: 0px 0px;
+    width:70%;
+    margin:0 auto;   
+}
+#comments.time {
+    right:0px;
+}
+
+.news
+{
+	margin: 0 0 20px;
+}
+
+.news .title
+{
+	font-size: 1.5em;
+	border-bottom: 1px solid #C9E0ED;
+}
+
+.news .title a
+{
+	color: #555;
+	font-size:12pt;
+	text-decoration: none;
+}
+
+.news .author
+{
+	color: #888;
+	font-size:8pt;
+	margin: 10px 0 5px;
+}
+
+.news .nav
+{
+	-moz-border-radius:7px;
+	padding: 5px;
+	background: #EFFDFF;
+}
+
+.comment
+{
+	-moz-border-radius:7px;
+	padding: 10px;
+	background: #F5F5F5;
+	margin: 5px 0;
+}
+
+.comment .content
+{
+	margin: 10px 0;
+}
+
+.comment .author
+{
+	margin: 10px 0px;
+	border-bottom: 1px solid #DDD;
+}
+
+.comment .time
+{
+	color: #888;
+	font-size: 0.8em;
+}
+
+.comment a.cid
+{
+	color:#CCC;
+	float:right;
+	font-size:1em;
+	font-weight:bold;
+	padding:0 5px 5px 5px;
+	text-decoration: none;
+}
+
+.comment a.cid:hover
+{
+	color:#555;
+}
+
+.comment .pending
+{
+	color:red;
+}
+/* LIST #3 */
+.library { }
+.library ul { list-style-image: url("../images/arrow.png"); font-size:18px; }
+.library ul li { line-height:24px; }
+.library ul li { line-height:24px; }

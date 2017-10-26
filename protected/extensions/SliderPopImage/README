@@ -1,0 +1,34 @@
+Version 1.1
+
+	To use the SliderPopImage:
+	1) Extract archive in your extensions folder
+	2) In the site root create a folder named "images" and copy content of image folder from archive
+    3) In the site root create a folder named "images/thumbs" and copy content of thumbnails folder from archive
+
+	To include a slider in a page:
+	
+Yii::app()->clientScript->registerCoreScript('jquery'); //if you do not set it yet
+ 
+  //you have to put this code in your view file
+
+<?php
+  $this->widget('ext.SliderPopImage.SliderPopImage', array(
+	'selectorImgPop' => '.thumbsgen',
+	'popupwithpaginate' => true,
+	'maxpopuwidth' => '$(window).width()*0.8',
+	'postfixThumb' => '_thumb',
+    //'relPathThumbs' => 'thumbs' or better
+	'relPathThumbs' => array('thumbsTiny','thumbsMedium')
+	));
+  ?>
+ 
+  
+  <?php
+  echo CHtml::image(Yii::app()->request->baseUrl . '/images/thumbsMedium/01_thumb.jpg', 'alt 1',array('class'=>'thumbsgen'));
+  echo CHtml::image(Yii::app()->request->baseUrl . '/images/thumbsMedium/02_thumb.jpg', 'alt 2',array('class'=>'thumbsgen'));
+  echo CHtml::image(Yii::app()->request->baseUrl . '/images/thumbsMedium/03_thumb.jpg', 'alt 3',array('class'=>'thumbsgen'));
+  echo CHtml::image(Yii::app()->request->baseUrl . '/images/thumbsTiny/04_thumb.jpg', 'alt 4',array('class'=>'thumbsgen'));
+  echo CHtml::image(Yii::app()->request->baseUrl . '/images/thumbsTiny/05_thumb.png', 'alt 5',array('class'=>'thumbsgen'));
+  ?>
+
+
